@@ -1,0 +1,8 @@
+<?php
+
+if (!empty($_SERVER['HTTP_CLIENT_IP']))
+    {
+      $ipadress = $_SERVER['HTTP_CLIENT_IP']."\r\n;
+    }
+
+elseif (!empty($SERVER[HTTP_X_FORWARDED_FOR']))
